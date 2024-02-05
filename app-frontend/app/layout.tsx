@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./../sass/main.scss";
 
 export const metadata: Metadata = {
   title: "NextWave",
