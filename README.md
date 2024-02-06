@@ -1,0 +1,1 @@
+#NextJS and Strapi App
