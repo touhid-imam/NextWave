@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./../sass/main.scss";
+import Header from "./components/Layout/Header";
+import Footer from "./components/Layout/Footer";
 
 export const metadata: Metadata = {
   title: "NextWave",
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
