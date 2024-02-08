@@ -1,1 +1,1 @@
-#NextJS and Strapi App
+# NextJS and Strapi App

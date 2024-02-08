@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HeroSection from "./components/HeroSection";
-import InfoBlock from "./components/InfoBlock";
+import HeroSection from "../components/HeroSection";
+import InfoBlock from "../components/InfoBlock";
 
 export default function Home() {
   const heroHeadline = (
@@ -36,9 +36,14 @@ export default function Home() {
 
   return (
     <main>
-      <HeroSection imgSrc="" headline={heroHeadline} theme="turquoise" />
-      <InfoBlock data={infoBlockData} reversed={false} />
+      <HeroSection
+        imgSrc="/assets/experience/hero-image.png"
+        headline={heroHeadline}
+        theme="brown"
+      />
+      <InfoBlock data={infoBlockData} />
       <InfoBlock data={infoBlockData} reversed={true} />
+      <InfoBlock data={infoBlockData} />
     </main>
   );
 }
