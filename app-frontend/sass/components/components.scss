@@ -1,6 +1,12 @@
 @import "./header";
 @import "./btn";
 @import "./footer";
+@import "./input";
 
 @import "./hero-section";
 @import "./info-block";
+
+// blog component
+@import "./blog/highlight-article";
+@import "./blog/newsletter";
+@import "./featured-items";
